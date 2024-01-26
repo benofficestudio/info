@@ -4,26 +4,87 @@ html, body {
   overflow: hidden;
 }
 
-p{
-  font-family: 'FreeSans', 'Helvetica', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.111;
-  box-sizing: border-box;
+/* TYPOGRAPHY */
+h2{
+  position: -webkit-sticky;
+  position: sticky;
+  font-size: 24px;
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 400;
   letter-spacing: 88%;
-  word-spacing: 0.05rem;
-  color: black;
-  -webkit-text-stroke: 0.5px black;
-  margin: 0;
-  padding-right: 3px;
-}
-a{
-  color: black;
 }
 
-.mail{
-  text-decoration: none;
+.R{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+  color: white;
 }
+.G{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+  color: white;
+}
+
+p{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+  color: white;
+}
+/* TYPOGRAPHY */
+
+
+
+/* BACKGROUND */
+body {
+  padding: 25px;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-modeR {
+  background-color: red;
+}
+.dark-modeG {
+  background-color: green;
+}
+.dark-modeB {
+  background-color: blue;
+}
+/* BACKGROUND */
+
+
+/* BUTTONS */
+.b{
+  background-color: white; 
+  border: 1px solid #000;
+  /* border-radius: 50%; */
+  height: 1.3rem;
+  width: 1.3rem;
+}
+.b1{
+  background-color: red; 
+  border: 1px solid #000;
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+.b2{
+  background-color: green; 
+  border: 1px solid #000;
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+.b3{
+  background-color: blue; 
+  border: 1px solid #000;
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+/* BUTTONS */
+
+
 
 .grid{
   display: grid;
