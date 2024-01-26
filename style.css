@@ -4,87 +4,26 @@ html, body {
   overflow: hidden;
 }
 
-/* TYPOGRAPHY */
-h2{
-  position: -webkit-sticky;
-  position: sticky;
-  font-size: 24px;
-  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 400;
-  letter-spacing: 88%;
-}
-
-.R{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-  color: white;
-}
-.G{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-  color: white;
-}
-
 p{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-  color: white;
-}
-/* TYPOGRAPHY */
-
-
-
-/* BACKGROUND */
-body {
-  padding: 25px;
+  font-family: 'FreeSans', 'Helvetica', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.111;
+  box-sizing: border-box;
+  letter-spacing: 88%;
+  word-spacing: 0.05rem;
   color: black;
-  font-size: 25px;
+  -webkit-text-stroke: 0.5px black;
+  margin: 0;
+  padding-right: 3px;
+}
+a{
+  color: black;
 }
 
-.dark-modeR {
-  background-color: red;
+.mail{
+  text-decoration: none;
 }
-.dark-modeG {
-  background-color: green;
-}
-.dark-modeB {
-  background-color: blue;
-}
-/* BACKGROUND */
-
-
-/* BUTTONS */
-.b{
-  background-color: white; 
-  border: 1px solid #000;
-  /* border-radius: 50%; */
-  height: 1.3rem;
-  width: 1.3rem;
-}
-.b1{
-  background-color: red; 
-  border: 1px solid #000;
-  border-radius: 50%;
-  height: 1.3rem;
-  width: 1.3rem;
-}
-.b2{
-  background-color: green; 
-  border: 1px solid #000;
-  border-radius: 50%;
-  height: 1.3rem;
-  width: 1.3rem;
-}
-.b3{
-  background-color: blue; 
-  border: 1px solid #000;
-  border-radius: 50%;
-  height: 1.3rem;
-  width: 1.3rem;
-}
-/* BUTTONS */
-
-
 
 .grid{
   display: grid;
@@ -94,7 +33,7 @@ body {
 .cell{
   /* background-color: rgb(220,220,220);
   height: 100px; */
-  
+
   /* default-small devices */
 
 }[class*="col"]{
@@ -129,7 +68,7 @@ body {
 
       .md1{
         grid-column-end: span 12;
-        
+
       }
       .md2{
         grid-column-end: span 6;
