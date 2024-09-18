@@ -5,13 +5,10 @@ html, body {
 }
 
 p{
-  font-family: 'FreeSans', 'Helvetica', sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.111;
   box-sizing: border-box;
-  letter-spacing: 88%;
-  word-spacing: 0.05rem;
   color: black;
   -webkit-text-stroke: 0.5px black;
   margin: 0;
